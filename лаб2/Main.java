@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+        Fish fish = new Fish("Немо", 1, "Красная", "Пресная");
+        fish.showInfo();
+        Parrot parrot = new Parrot("Кеша", 5, "Красный", true);
+        parrot.showInfo();
+        System.out.println("Создано объектов: " + Animal.getCount());
+    }
+}
+
